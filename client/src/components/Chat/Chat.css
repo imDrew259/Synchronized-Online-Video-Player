@@ -1,0 +1,20 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 2px solid rgba(13, 20, 59, 0.425);
+    height: 70vh;
+    width: 34.6vw;
+    margin-right: 20px;
+  }
+  
+
+  @media screen and (max-width : 480px) {
+     .chat{
+       width: 94vw;
+       height: 27vh;
+       margin : 10px
+     }
+  }

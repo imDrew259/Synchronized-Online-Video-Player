@@ -1,0 +1,33 @@
+.roomData{
+    /* border: 2px solid red; */
+    /* padding: 10px; */
+    border-radius: 8px;
+    background-color: #2979FF;
+    color: white;
+    height: 5vh;
+    padding: 10px;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.span{
+    /* border: 2px solid yellow; */
+    /* padding: 5px; */
+    margin: 5px;
+}
+
+@media screen and (max-width : 480px) {
+    .roomData{
+        height: 4vh;
+        margin: 0px 10px 0px 10px;
+        font-size: 18px;
+    }
+    .span{
+        margin: 4px;
+    }
+}

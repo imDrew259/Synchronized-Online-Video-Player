@@ -1,0 +1,91 @@
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 60vw;
+    margin-right: 2vw;
+    margin-left: 20px;
+    border: 2px solid rgba(13, 20, 59, 0.425);
+    border-radius: 8px;
+
+}
+
+.input{ 
+display: flex;
+align-items: center;
+justify-content: center;
+  padding: 0px;
+  width: 60vw;
+ }
+.videoUrl{
+    width: 50vw;
+    height: 6.5vh;
+    font-size: 20px;
+    border-bottom-left-radius: 8px;
+    border-color: white;
+}
+.uploadBtn{
+    height: 7.5vh;
+    width: 15vw; 
+    font-size: 18px;
+    background: #2979FF;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom-right-radius: 8px;
+ } 
+
+ .playerWrapper{
+position: relative;
+width :60vw ;
+height:62.6vh ;
+ }
+ .reactPlayer{
+position: absolute;
+top: 0;
+left: 0
+ }
+ 
+ @media screen and (max-width: 480px) {
+    .video{
+         width: 94vw;
+         height: 30vh;
+         margin: 10px;
+         margin-bottom: 0px;
+    }
+    /* .reactPlayer{
+        height: 10vh;
+        width: 10vw;
+    }      */
+    .input{
+        width: 94vw;
+        height: 40px;
+        margin-bottom: -22px;
+    }
+    .videoUrl{
+        width: 80vw;
+        height: 4vh;
+        font-size: 18px;
+        
+    }
+    .uploadBtn{
+        height: 6vh;
+        font-size: 18px;
+        width: 15vh;
+        margin-bottom: -13px;
+    }
+     
+     .playerWrapper{
+         position: relative;
+         width: 94vw;
+         height: 24vh;
+         margin-top: -35px;
+     }
+     .reactPlayer {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+ }

@@ -1,0 +1,15 @@
+.home{
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    overflow: none;    
+}
+
+@media screen and (max-width : 480px) {
+      .home{
+          /* height: 20vh; */
+          flex-direction: column;
+         overflow: none;  
+      }
+}
